@@ -1,0 +1,23 @@
+{
+  "name": "codesandbox-nuxt",
+  "version": "1.0.0",
+  "description": "Nuxt starter for CodeSandBox",
+  "author": "Nuxt.js Team",
+  "private": true,
+  "scripts": {
+    "dev": "MINIMAL=1 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "bootstrap-vue": "2.21.2",
+    "drawflow": "0.0.53",
+    "element-ui": "2.15.6",
+    "nuxt": "^2.15.0",
+    "vuex": "3.6.2",
+    "codemirror": "^5.65.2",
+    "js-beautify": "^1.14.0"
+  }
+}
